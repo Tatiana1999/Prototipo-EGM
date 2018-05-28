@@ -1,0 +1,9 @@
+egm:
+  image: buho/egm #nombre a la imagen
+  command: /egm/run.sh
+  volumes:
+    - .:/egm
+  environment:
+    C_FORCE_ROOT: 1 #permisos
+  ports:
+    - "8025:8025" #puertos del runsh

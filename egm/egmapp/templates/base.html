@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Datos Egm</title>
+  </head>
+  <body>
+  <h1>Datos Egm </h1>
+   <table border="1px">
+      <thead>
+        <tr>
+          {% for i in encabezado %}
+              <th>{{i}}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in personadata %}
+            <tr>
+              {% for j in i %}
+                <td>
+                  {{j}}
+                </td>
+            {% endfor %}
+            </tr>
+            {% endfor %}
+          </tr>
+        </tbody>
+    </table>
+
+
+  </body>
+</html>

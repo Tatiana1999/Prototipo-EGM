@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Campos</title>
+  </head>
+  <body>
+    <h1>Campos</h1>
+    <table border="1px">
+      <thead>
+        <tr>
+          <th>Campos seleccionados</th>
+        </tr>
+      </thead>
+      <tbody>
+
+          {%for c in campo%}
+            <tr><td>  {{c}}</td></tr>
+            {% endfor %}
+
+      </tbody>
+  </table>
+  </body>
+</html>

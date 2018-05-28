@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>codigo</title>
+  </head>
+  <h1>Codigo</h1>
+  <body>
+    <table border="1px">
+      <thead>
+          <tr>
+            <th>Preguntas</th>
+            <th>Etiquetas</th>
+            <th>Codigo</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+          {%for p in preguntas%}
+            {{p}}<br><hr>
+          {% endfor%}
+          </td>
+          <td>
+          {%for e in etiquetas%}
+            {{e}}<br><hr>
+          {% endfor%}
+          </td>
+          <td>
+          {%for c in codigodata%}
+            {{c}}<br><hr>
+          {% endfor%}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>
