@@ -14,3 +14,7 @@ libreria:
 Instalacion de libreria import/export:
 -----
 	http://django-import-export.readthedocs.io/en/latest/installation.html
+
+Archivos utilizados:
+------
+	Carpeta: EGM documentacion 
