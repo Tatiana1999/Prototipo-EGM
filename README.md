@@ -7,13 +7,10 @@ Construido con:
 	-Python==2.7
 	-Django== 1.11
 
-librerias 
+libreria: 
 ----------
 	import/export
-
-
-
-
-
-
-
+	
+Instalacion de libreria import/export:
+-----
+	http://django-import-export.readthedocs.io/en/latest/installation.html
