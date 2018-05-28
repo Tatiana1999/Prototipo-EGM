@@ -1,5 +1,5 @@
 # Prototipo-EGM
-Manejo,integración y organizacion de datos EGM.
+Manejo y organizacion de datos EGM .
 
 Construido con: 
 ---------
@@ -9,7 +9,8 @@ Construido con:
 
 librerias 
 ----------
-import/export
+	import/export
+
 
 
 
