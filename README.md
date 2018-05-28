@@ -17,4 +17,4 @@ Instalacion de libreria import/export:
 
 Archivos utilizados:
 ------
-	Carpeta: EGM documentacion 
+	Carpeta: Documentacion EGM 
