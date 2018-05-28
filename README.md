@@ -1,5 +1,5 @@
 # Prototipo-EGM
-Manejo y organizacion de datos EGM .
+Manejo y organizacion de datos del EGM ,en tablas representadas en formato HTML.
 
 Construido con: 
 ---------
